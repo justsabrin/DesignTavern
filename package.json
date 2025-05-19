@@ -9,6 +9,6 @@
     "firebase-admin": "^13.3.0"
   },
   "scripts": {
-    "start": "node bot.js"
+    "dev": "node bot.js"
   }
 }
