@@ -1,0 +1,93 @@
+[
+    {
+      "title": "App-landing page design",
+      "description": "Skab en landingsside til en app, der fokuserer på en innovativ sundheds- og fitnessapp.",
+      "targetAudience": "Brugere, der er interesseret i at spore deres sundhed og fitnessmål på en intuitiv og motiverende måde.",
+      "callToAction": "Tænk på farver, layout og brugervenlighed. Hvordan kan du fremhæve appens funktioner effektivt?"
+    },
+    {
+      "title": "E-commerce wireframe",
+      "description": "Design en wireframe til en e-commerce hjemmeside, der sælger bæredygtige produkter.",
+      "targetAudience": "Kunder, der er interesseret i miljøvenlige produkter og har en bevidsthed om bæredygtighed.",
+      "callToAction": "Tænk på hvordan produkter bliver fremvist og købsprocessen er enkel og intuitiv."
+    },
+    {
+      "title": "Fitness login-skærm",
+      "description": "Design en login-skærm for en fitness-app, der hjælper brugere med at holde styr på deres træning og kost.",
+      "targetAudience": "Fitnessentusiaster, der ønsker at spore deres fremgang og opnå sundhedsmål.",
+      "callToAction": "Tænk på hvordan du kan få brugerne til at føle sig motiverede, når de logger ind på appen."
+    },
+    {
+      "title": "Portfolio website design",
+      "description": "Design en personlig portfolio-hjemmeside for en kreativ freelancer såsom fotograf, designer eller illustrator.",
+      "targetAudience": "Potentielle kunder og samarbejdspartnere, der hurtigt skal kunne vurdere personens kompetencer og stil.",
+      "callToAction": "Fokuser på visuel præsentation og brugervenlig navigation. Hvordan formidler du personlighed og professionalisme gennem designet?"
+    },
+    {
+      "title": "Event landing page",
+      "description": "Skab en landingsside for en fiktiv musik- eller kulturfestival.",
+      "targetAudience": "Festivaldeltagere og kulturinteresserede, som søger information og billetter.",
+      "callToAction": "Hvordan kan designet skabe stemning og formidle praktisk information effektivt? Tænk i visuelle elementer og CTA-knapper."
+    },
+    {
+      "title": "Restaurant mobilmenu",
+      "description": "Design en mobilvenlig menu til en moderne restaurant med fokus på lokale råvarer.",
+      "targetAudience": "Sultne brugere på farten, der hurtigt skal kunne danne sig et overblik og måske bestille.",
+      "callToAction": "Hvordan gør du det let og appetitligt at navigere menuen? Overvej typografi, billeder og interaktive elementer."
+    },
+    {
+      "title": "Social media kampagnegrafik",
+      "description": "Skab en serie grafik til en social media-kampagne for en bæredygtig modevirksomhed.",
+      "targetAudience": "Miljøbevidste unge voksne, der følger trends og brands online.",
+      "callToAction": "Hvordan skaber du blikfang i feedet og fastholder brandidentiteten? Tænk i storytelling og formatoptimering."
+    },
+    {
+      "title": "Dashboard UI til datavisualisering",
+      "description": "Design en intuitiv brugerflade til et dashboard, der visualiserer realtidsdata for en startup.",
+      "targetAudience": "Virksomhedens interne team, der hurtigt skal kunne forstå og handle på data.",
+      "callToAction": "Fokuser på visuel klarhed og interaktivitet. Hvordan guider du brugeren gennem komplekse informationer?"
+    },
+    {
+      "title": "Animationsintro til app",
+      "description": "Skab en kort animationssekvens, der introducerer en apps funktioner, når brugeren åbner den for første gang.",
+      "targetAudience": "Førstegangsbrugere, der skal føle sig godt guidet og engageret.",
+      "callToAction": "Hvordan holder du animationen kort, informativ og visuelt tiltalende uden at forsinke brugerens oplevelse?"
+    },
+    {
+      "title": "Newsletter design",
+      "description": "Design en nyhedsbrevsskabelon til en startup, der vil sende ugentlige opdateringer og artikler.",
+      "targetAudience": "Eksisterende og potentielle kunder, der gerne vil holde sig opdaterede og engagerede.",
+      "callToAction": "Hvordan gør du e-mailen visuelt spændende og let at læse på både mobil og desktop?"
+    },
+    {
+      "title": "Microsite til produktlancering",
+      "description": "Skab en enkel, men visuelt imponerende microsite til lanceringen af et nyt teknologiprodukt.",
+      "targetAudience": "Tech-interesserede, early adopters og pressefolk.",
+      "callToAction": "Hvordan skaber du hype og informerer klart? Brug scroll-effekter, animation eller interaktivitet med omtanke."
+    },
+    {
+      "title": "Brugerrejse – onboarding flow",
+      "description": "Design et onboarding-flow til en ny bruger i en mobilapp.",
+      "targetAudience": "Nye brugere, som skal føle sig godt hjulpet og ikke overvældet.",
+      "callToAction": "Hvordan gør du brugerrejsen nem, intuitiv og engagerende uden for meget tekst?"
+    },
+    {
+      "title": "Ikonpakke til en app",
+      "description": "Design en ikonpakke med minimum 10 ikoner, der passer til en moderne mobilapp.",
+      "targetAudience": "App-brugere, som værdsætter æstetik og tydelig navigation.",
+      "callToAction": "Tænk i konsistens, enkelhed og genkendelighed. Hvordan skiller ikonerne sig ud uden at forvirre?"
+    },
+    {
+      "title": "Digital storytelling – interaktiv artikel",
+      "description": "Design layout og interaktive elementer til en digital artikel om klimaforandringer.",
+      "targetAudience": "Læserne af en online avis eller et digitalt magasin, som ønsker at forstå komplekse emner på en engagerende måde.",
+      "callToAction": "Hvordan bruger du billeder, grafik, animationer og interaktive sektioner til at understøtte læseoplevelsen?"
+    },
+    {
+      "title": "Branding: Logo og visuel identitet",
+      "description": "Skab en logo- og identitetspakke for en nystartet virksomhed inden for bæredygtig teknologi.",
+      "targetAudience": "Investorer, kunder og samarbejdspartnere, der lægger vægt på både professionalisme og grøn innovation.",
+      "callToAction": "Hvordan skaber du en stærk visuel identitet, der både er moderne og signalerer ansvarlighed?"
+    }
+  ]
+  

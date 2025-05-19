@@ -1,0 +1,18 @@
+# Følsomme filer
+.env
+firebaseKey.json
+
+# node_modules mappen
+node_modules/
+
+# Log-filer
+*.log
+
+# MacOS system filer
+.DS_Store
+
+# Windows system filer
+Thumbs.db
+
+# Ignorer DesignTavern mappen
+DesignTavern/
