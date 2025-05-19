@@ -1,17 +1,19 @@
-require('dotenv').config();  // Brug dotenv til at beskytte dine tokens
+require('dotenv').config();  // Brug .env til at beskytte dine tokens
 
 const { Client, GatewayIntentBits, EmbedBuilder } = require('discord.js');
-const admin = require('firebase-admin');
-const serviceAccount = require(process.env.FIREBASE_KEY_PATH);
+const fs = require('fs');
 
-// Firebase initialisering
-admin.initializeApp({
-    credential: admin.credential.cert(serviceAccount)
-});
+// Læs challenges én gang ved opstart
+let challenges = [];
 
-const db = admin.firestore();
+try {
+    const data = fs.readFileSync('challenges.json', 'utf-8');
+    challenges = JSON.parse(data);
+    console.log('Challenges indlæst:', challenges.length);
+} catch (err) {
+    console.error('Fejl ved indlæsning af challenges.json:', err);
+}
 
-// Opretter en Discord klient med de nødvendige intents
 const client = new Client({
     intents: [
         GatewayIntentBits.Guilds,
@@ -31,7 +33,6 @@ const commands = [
     },
 ];
 
-// Når botten er klar, registreres kommandoerne
 client.once('ready', async () => {
     console.log('Klar!');
 
@@ -51,7 +52,6 @@ client.once('ready', async () => {
     }
 });
 
-// Håndtering af slash commands
 client.on('interactionCreate', async interaction => {
     if (!interaction.isCommand()) return;
 
@@ -71,16 +71,11 @@ client.on('interactionCreate', async interaction => {
 
         case 'challenge':
             try {
-                // Hent alle challenges fra Firestore
-                const snapshot = await db.collection('challenges').get();
-                const challenges = snapshot.docs.map(doc => doc.data());
-
                 if (challenges.length === 0) {
                     await interaction.reply("Der er ingen challenges tilgængelige endnu!");
                     return;
                 }
 
-                // Vælg en tilfældig challenge
                 const challenge = challenges[Math.floor(Math.random() * challenges.length)];
 
                 await interaction.reply(`
@@ -91,7 +86,7 @@ client.on('interactionCreate', async interaction => {
 **Call to Action:** ${challenge.callToAction}
                 `);
             } catch (error) {
-                console.error('Fejl ved hentning af challenge:', error);
+                console.error('Fejl ved håndtering af challenge:', error);
                 await interaction.reply("Noget gik galt med at hente din challenge.");
             }
             break;
@@ -101,5 +96,4 @@ client.on('interactionCreate', async interaction => {
     }
 });
 
-// Logger botten ind
 client.login(process.env.DISCORD_TOKEN).catch(console.error);
